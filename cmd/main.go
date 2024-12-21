@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/sunshineplan/hlsdl"
+	"github.com/Trunggenk/hlsdl-redown"
 )
 
 var (

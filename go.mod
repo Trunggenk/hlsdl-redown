@@ -1,4 +1,4 @@
-module github.com/sunshineplan/hlsdl
+module github.com/Trunggenk/hlsdl-redown
 
 go 1.23
 

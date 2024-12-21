@@ -58,7 +58,7 @@ func (d *Downloader) dlSegment(s *m3u8.MediaSegment, path, output string) {
 			}
 			_, err = resp.Save(output)
 			return err
-		}, 5, 5,
+		}, 20, 10,
 	); err != nil {
 		d.results = append(d.results, errResult{s.SeqId, err})
 		os.WriteFile(output, nil, 0666)
